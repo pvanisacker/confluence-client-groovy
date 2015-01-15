@@ -1,6 +1,9 @@
 # confluence-client-groovy
 A Groovy client for the Confluence REST API that helps you working around some of the lacking features in Confluence.
+
 Like deleting a page tree, add labels to a bunch of pages, batch creation of pages, ...
+
+It is very likely that this will not be updated anymore, I just put it here so someone might find it usefull.
 
 
 
@@ -24,4 +27,5 @@ Or you use one of the more advanced commands:
 # License 
 
 This code is provided as is, it is not supported and surely has bugs.
+
 Here's the license: http://creativecommons.org/licenses/by-nc-sa/4.0/
