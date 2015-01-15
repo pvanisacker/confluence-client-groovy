@@ -1,0 +1,15 @@
+apply plugin: 'groovy'
+apply plugin: 'application'
+version='1.0'
+mainClassName='Test'
+
+dependencies {
+	compile 'org.codehaus.groovy:groovy-all:2.3.8'
+	compile 'org.languagetool:language-en:2.7'
+	compile 'org.codehaus.groovy.modules.http-builder:http-builder:0.7'
+}
+
+task runGroovy(type:JavaExec, dependsOn:['classes']){
+	main = "run"
+	classpath = sourceSets.main.runtimeClasspath
+}
